@@ -157,7 +157,7 @@ export const skills = {
         id: "frontend",
         title: "Front-End",
         icon: "</>",
-        items: ["React", "JavaScript", "Tailwind CSS", "Bootstrap"],
+        items: ["React", "JavaScript", "TypeScript", "Tailwind CSS", "Bootstrap"],
         barsTitle: "Front-End",
         bars: [
           { name: "HTML5", level: 95 },
@@ -181,7 +181,7 @@ export const skills = {
           { name: "MySQL", level: 90 },
           { name: "PostgreSQL", level: 80 },
           { name: "PHP", level: 78 },
-          { name: "Laravel", level: 75 },
+          { name: "Laravel", level: 90 },
         ],
       },
       {
@@ -202,7 +202,7 @@ export const skills = {
         id: "tools",
         title: "Tools",
         icon: "[~]",
-        items: ["Git", "GitHub", "VS Code", "Figma"],
+        items: ["Git", "GitHub", "VS Code", "Docker", "Figma"],
         barsTitle: "Tools",
         bars: [
           { name: "Git", level: 85 },
@@ -219,7 +219,7 @@ export const skills = {
         id: "frontend",
         title: "ផ្នែកខាងមុខ",
         icon: "</>",
-        items: ["React", "JavaScript", "Tailwind CSS", "Bootstrap"],
+        items: ["React", "JavaScript", "TypeScript", "Tailwind CSS", "Bootstrap"],
         barsTitle: "ផ្នែកខាងមុខ",
         bars: [
           { name: "HTML5", level: 95 },
@@ -243,7 +243,7 @@ export const skills = {
           { name: "MySQL", level: 82 },
           { name: "PostgreSQL", level: 80 },
           { name: "PHP", level: 78 },
-          { name: "Laravel", level: 75 },
+          { name: "Laravel", level: 90 },
         ],
       },
       {
@@ -264,7 +264,7 @@ export const skills = {
         id: "tools",
         title: "ឧបករណ៍",
         icon: "[~]",
-        items: ["Git", "GitHub", "VS Code", "Figma"],
+        items: ["Git", "GitHub", "VS Code", "Docker", "Figma"],
         barsTitle: "ឧបករណ៍",
         bars: [
           { name: "Git", level: 85 },
@@ -281,14 +281,14 @@ export const projects = {
   en: [
     {
       name: "E-commerce Website",
-      type: "React UI",
+      type: "React.js + Java Spring Boot",
       link: "https://cyber-store-project-seven.vercel.app/",
       description:
         "A personal brand site with smooth navigation, responsive sections, and a clean presentation of skills and work.",
     },
     {
       name: "Student Attendance System",
-      type: "React + Spring Boot",
+      type: "React.js + Spring Boot",
       link: "https://minet2943-byte.github.io/System_Attendance/#/login",
       description:
         "A backend service for managing student data with CRUD endpoints, validation, and PostgreSQL persistence.",
@@ -304,14 +304,14 @@ export const projects = {
   km: [
     {
       name: "E-commerce  Website",
-      type: "React UI",
+      type: "React.js + Spring Boot ",
       link: "https://cyber-store-project-seven.vercel.app/",
       description:
         "គេហទំព័រផ្ទាល់ខ្លួនដែលមាន navigation រលូន, responsive sections និងការបង្ហាញជំនាញបានច្បាស់។",
     },
     {
       name: "Student Attendance System",
-      type: "React + Spring Boot",
+      type: "React.js + Spring Boot",
       link: "https://minet2943-byte.github.io/System_Attendance/#/login",
       description:
         "សេវា backend សម្រាប់គ្រប់គ្រងទិន្នន័យសិស្ស ជាមួយ CRUD endpoints, validation និង PostgreSQL។",
