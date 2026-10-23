@@ -25,7 +25,7 @@ function Contact({ contactText, emailLabel, focus, focusText, label, title }) {
           </a> */}
           <a
             className="contact-link"
-            href="https://github.com/minet2943-byte"
+            href="https://github.com/Seum-Sokneth"
             target="_blank"
             rel="noreferrer"
           >
