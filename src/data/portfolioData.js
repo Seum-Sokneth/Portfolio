@@ -289,7 +289,7 @@ export const projects = {
     {
       name: "Student Attendance System",
       type: "React.js + Spring Boot",
-      link: "https://minet2943-byte.github.io/System_Attendance/#/login",
+      link: "https://seum-sokneth.github.io/System_Attendance/#/login",
       description:
         "A backend service for managing student data with CRUD endpoints, validation, and PostgreSQL persistence.",
     },
