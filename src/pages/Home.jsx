@@ -39,8 +39,8 @@ function Home({
             : "I enjoy building polished interfaces and structured backend services for projects that solve real problems."}
         </p>
         <a
-          href="/resume.pdf"
-          download="SeumSokneth_Cv.pdf"
+          href="/Sokneth-Seum-Resume.pdf"
+          download="Sokneth-Seum-Resume.pdf"
           className="mt-8 inline-flex items-center rounded-full border border-(--accent) px-5 py-3 text-sm font-semibold text-(--accent) transition hover:bg-(--accent) hover:text-(--surface)"
         >
           Download CV
