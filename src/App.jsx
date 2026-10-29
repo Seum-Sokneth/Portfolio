@@ -289,6 +289,7 @@ function App() {
         <Project
           label={t.projectsLabel}
           projectItems={projectItems}
+          sourceLabel={t.sourceCodeLabel}
           title={t.projectsTitle}
         />
 

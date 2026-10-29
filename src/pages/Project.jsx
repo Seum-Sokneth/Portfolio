@@ -1,6 +1,6 @@
 import useReveal from "../hooks/useReveal";
 
-function Project({ label, projectItems, title }) {
+function Project({ label, projectItems, sourceLabel, title }) {
   const [sectionRef, isRevealed] = useReveal();
 
   return (
@@ -29,15 +29,29 @@ function Project({ label, projectItems, title }) {
             <p className="text-sm leading-7 text-(--muted)">
               {project.description}
             </p>
-            {project.link && (
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-6 inline-flex items-center text-sm font-semibold text-(--accent) transition hover:text-(--text)"
-              >
-                View project <span aria-hidden="true">-&gt;</span>
-              </a>
+            {(project.link || project.sourceCode) && (
+              <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2">
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center text-sm font-semibold text-(--accent) transition hover:text-(--text)"
+                  >
+                    View project <span aria-hidden="true">-&gt;</span>
+                  </a>
+                )}
+                {project.sourceCode && (
+                  <a
+                    href={project.sourceCode}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center text-sm font-semibold text-(--accent) transition hover:text-(--text)"
+                  >
+                    {sourceLabel} <span aria-hidden="true">-&gt;</span>
+                  </a>
+                )}
+              </div>
             )}
           </article>
         ))}

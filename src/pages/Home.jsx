@@ -29,8 +29,7 @@ function Home({
           </div>
           <div className="mt-4">
             <h1 className="fx-aurora font-extrabold leading-tight ">
-              "Hi,I'm Seum Sokneth. I build modern web experiences with React
-              and Spring Boot."
+              I am Full-Stack Web Developer and Java Backend Engineering
             </h1>
           </div>
         </div>

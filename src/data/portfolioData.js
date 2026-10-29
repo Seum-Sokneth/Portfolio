@@ -16,6 +16,7 @@ export const copy = {
     },
     ctaPrimary: "View Projects",
     ctaSecondary: "Contact Me",
+    sourceCodeLabel: "View source code",
     projectsLabel: "Selected Work",
     certificatesLabel: "Credentials",
     skillsTitle: "Skills I use to build practical web apps",
@@ -43,6 +44,7 @@ export const copy = {
     },
     ctaPrimary: "មើលគម្រោង",
     ctaSecondary: "ទាក់ទងខ្ញុំ",
+    sourceCodeLabel: "មើលកូដប្រភព",
     projectsLabel: "គម្រោងសំខាន់ៗ",
     certificatesLabel: "Certificates",
     skillsTitle: "ជំនាញដែលខ្ញុំប្រើសម្រាប់បង្កើត web apps",
@@ -279,49 +281,26 @@ export const skills = {
 
 export const projects = {
   en: [
-    {
-      name: "E-commerce Website",
-      type: "React.js + Java Spring Boot",
-      link: "https://cyber-store-project-seven.vercel.app/",
-      description:
-        "A personal brand site with smooth navigation, responsive sections, and a clean presentation of skills and work.",
-    },
+    
     {
       name: "Student Attendance System",
       type: "React.js + Spring Boot",
       link: "https://seum-sokneth.github.io/System_Attendance/#/login",
+      sourceCode: "https://github.com/Seum-Sokneth/System_Attendance",
       description:
         "A backend service for managing student data with CRUD endpoints, validation, and PostgreSQL persistence.",
     },
-    {
-      name: "Admin Dashboard",
-      type: "Full Stack",
-      link: "",
-      description:
-        "A dashboard concept connecting frontend components to backend services for monitoring records and activity.",
-    },
+ 
   ],
   km: [
-    {
-      name: "E-commerce  Website",
-      type: "React.js + Spring Boot ",
-      link: "https://cyber-store-project-seven.vercel.app/",
-      description:
-        "គេហទំព័រផ្ទាល់ខ្លួនដែលមាន navigation រលូន, responsive sections និងការបង្ហាញជំនាញបានច្បាស់។",
-    },
     {
       name: "Student Attendance System",
       type: "React.js + Spring Boot",
       link: "https://minet2943-byte.github.io/System_Attendance/#/login",
+      sourceCode: "https://github.com/minet2943-byte/System_Attendance",
       description:
         "សេវា backend សម្រាប់គ្រប់គ្រងទិន្នន័យសិស្ស ជាមួយ CRUD endpoints, validation និង PostgreSQL។",
     },
-    {
-      name: "Admin Dashboard",
-      type: "Full Stack",
-      link: "",
-      description:
-        "គំនិត dashboard ដែលភ្ជាប់ frontend components ជាមួយ backend services សម្រាប់មើល records និង activity។",
-    },
+   
   ],
 };
